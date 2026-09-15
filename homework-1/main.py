@@ -1,5 +1,5 @@
 """Скрипт для заполнения данными таблиц в БД Postgres."""
-1
+#1
 import psycopg2
 
 conn = psycopg2.connect(
@@ -113,7 +113,7 @@ cur.close()
 conn.close()
 
 
-2 
+#2 
 
 import psycopg2
 
@@ -184,7 +184,7 @@ for row in cur:
 cur.close()
 conn.close()
 
-3 
+#3 
 
 import psycopg2
 
