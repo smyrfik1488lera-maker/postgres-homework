@@ -35,6 +35,8 @@ with open("north_data/orders_data.csv", encoding="utf-8") as file:
     for row in csv.DictReader(file):
         cur.execute(
             "INSERT INTO orders VALUES (%s, %s, %s, %s, %s)",
+            customer_id int REFERENCES customers(customer_id),
+            employee_id int REFERENCES employees(employee_id),
             (row["order_id"], row["customer_id"], row["employee_id"],
              row["order_date"], row["ship_city"])
         )
