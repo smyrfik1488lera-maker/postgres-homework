@@ -1,5 +1,5 @@
 -- SQL-команды для создания таблиц
-#1
+--1
 CREATE TABLE customer
 (
  customer_id varchar(1000) PRIMARY KEY,
@@ -8,7 +8,7 @@ CREATE TABLE customer
 );
 select * from customer
 
-#2 
+--2 
 CREATE TABLE employee
 (
  employee_id int PRIMARY KEY,
@@ -20,7 +20,7 @@ CREATE TABLE employee
 );
 select * from employee
 
-#3 
+--3 
 CREATE TABLE orders
 (
  order_id int PRIMARY KEY,
