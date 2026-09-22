@@ -9,7 +9,7 @@ CREATE TABLE customer
 select * from customer
 
 --2 
-CREATE TABLE employee
+CREATE TABLE employees
 (
  employee_id int PRIMARY KEY,
     first_name varchar(1000) NOT NULL,
