@@ -18,7 +18,7 @@ CREATE TABLE employees
  birth_date varchar(1000) NOT NULL,
  notes varchar(1000) NOT NULL
 );
-select * from employee
+select * from employees
 
 --3 
 CREATE TABLE orders
